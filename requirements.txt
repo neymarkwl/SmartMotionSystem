@@ -1,0 +1,17 @@
+﻿# 核心基础依赖
+opencv-python==4.8.0.76
+pyqt5==5.15.9
+matplotlib==3.7.1
+numpy==1.24.3
+contourpy==1.2.0
+
+# YOLOv8核心依赖
+ultralytics==8.0.230
+torch==2.1.0
+torchvision==0.16.0
+
+# MySQL数据库依赖
+mysql-connector-python==8.2.0
+
+# 辅助工具依赖
+pillow==10.1.0
