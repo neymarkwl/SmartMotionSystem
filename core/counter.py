@@ -10,7 +10,7 @@ class MotionCounter:
         self.pushup_count = 0
         self.jump_count = 0
 
-        # 状态机（完全对齐GoodGYM逻辑）
+        # 状态机
         self.squat_state = "UP"  # UP/DOWN
         self.pushup_state = "UP"  # UP/DOWN
         self.jump_buffer = []
