@@ -26,7 +26,7 @@ def calculate_angle(a, b, c):
 
 
 def preprocess_frame(frame):
-    """图像预处理：亮度调整+降噪，提升姿态检测鲁棒性（论文可写）"""
+    """图像预处理：亮度调整+降噪，提升姿态检测鲁棒性"""
     # 亮度调整
     frame = cv2.convertScaleAbs(frame, alpha=1.1, beta=10)
     # 高斯模糊降噪
