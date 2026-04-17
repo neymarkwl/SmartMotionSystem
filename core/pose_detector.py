@@ -11,7 +11,6 @@ class PoseDetector:
         results = self.model(frame, verbose=False)
         annotated_frame = results[0].plot()
 
-        # ✅ 修复关键点提取逻辑
         if results[0].keypoints is not None and len(results[0].keypoints) > 0:
             keypoints = results[0].keypoints[0].xy[0].cpu().numpy()
             return annotated_frame, keypoints
