@@ -1,4 +1,4 @@
-# 系统全局配置，方便统一修改
+# 系统全局配置
 MODEL_PATH = "models/yolov8n-pose.pt"
 DB_CONFIG = {
     "host": "localhost",
